@@ -93,3 +93,8 @@ main {
 .delete-btn:hover {
   background-color: var(--deletebtn-hover);
 }
+.todo-item .todo-checkbox {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
