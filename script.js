@@ -6,6 +6,9 @@ btn.addEventListener("click", () => {
   if (!text) return;
   const li = document.createElement("li");
   li.classList.add("todo-item");
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.classList.add("todo-checkbox");
   const deleteBtn = document.createElement("button");
   deleteBtn.classList.add("delete-btn");
   deleteBtn.addEventListener("click", () => {
@@ -14,6 +17,7 @@ btn.addEventListener("click", () => {
   li.textContent = text;
   deleteBtn.textContent = "delete";
   li.appendChild(deleteBtn);
+  li.prepend(checkbox);
   list.appendChild(li);
   input.value = "";
 });
