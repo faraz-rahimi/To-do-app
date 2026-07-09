@@ -90,7 +90,19 @@ main {
   box-shadow: 1px 2px 3px #6af5ff;
   transition-duration: 200ms;
 }
-.delete-btn:hover {
+.delete-all-btn {
+  border: none;
+  background-color: var(--deletebtn);
+  width: 100px;
+  height: 40px;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 1px 2px 3px #6af5ff;
+  transition-duration: 200ms;
+}
+.delete-btn:hover,
+.delete-all-btn:hover {
   background-color: var(--deletebtn-hover);
 }
 .todo-item .todo-checkbox {
