@@ -10,6 +10,10 @@ A simple and responsive To-Do List application built with HTML, CSS, and JavaScr
 - Prevent empty tasks from being added
 - Responsive and clean UI
 
+## live demo 
+
+-https://faraz-rahimi.github.io/To-do-app/
+
 ## Technologies
 
 - HTML5
